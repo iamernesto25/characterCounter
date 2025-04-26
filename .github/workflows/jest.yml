@@ -1,0 +1,26 @@
+name: Run Jest Tests
+
+on:
+  push:
+    branches: [ main, master ]  # runs on push to these branches
+  pull_request:
+    branches: [ main, master ]  # runs on pull request to these branches
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'   # or whatever Node version your project uses
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test

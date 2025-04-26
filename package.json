@@ -1,0 +1,23 @@
+{
+  "name": "javascript-learning",
+  "version": "1.0.0",
+  "main": "practice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamernesto25/characterCounter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamernesto25/characterCounter/issues"
+  },
+  "homepage": "https://github.com/iamernesto25/characterCounter#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
