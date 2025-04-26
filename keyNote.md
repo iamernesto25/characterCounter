@@ -48,3 +48,12 @@
 2. Target
 3. Event Bubbling
 
+# GIT & GITHUB
+- what is git?
+- common git commands
+- what is rebase?
+- what is pull request?
+- what is git fetch?
+- what is git pull?
+
+
